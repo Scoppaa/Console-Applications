@@ -42,6 +42,17 @@ namespace ConsoleApplications
             //}
             //Console.ReadLine();
 
+            //////////=================================================
+            //////////Application Name: Resistor
+            //////////Description: Creates an array of colors and allows the user to search for the index of it in the array
+            //////////=================================================
+            //string[] resistor = new string[] { "Red", "Blue", "White", "Black", "Orange", "Green" };
+            //Console.WriteLine("Enter a resistor color to return its numeric representation");
+            //string color = Console.ReadLine();
+            //int index = Array.FindIndex(resistor, x => x.Contains(color)); //Find index in the array of the color
+            //Console.WriteLine("The numeric representation of " + color + " is: " + index);
+            //Console.ReadLine();
+            
         }
     }
 }
