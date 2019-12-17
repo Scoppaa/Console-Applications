@@ -17,6 +17,17 @@ namespace ConsoleApplications
             //Console.WriteLine("Hello World!");
             //Console.ReadLine();
 
+            //////=================================================
+            //////application name: Casting
+            //////description: A simple demonstration of explicit type conversion.
+            //////=================================================
+            //double d = 423.64;
+            //int i;
+
+            //i = (int)d;
+            //Console.WriteLine(i);
+            //Console.ReadLine();
+
             ////=================================================
             ////Application Name: TwoFer
             ////Description: Takes a name from user input and places into sentance
@@ -53,26 +64,25 @@ namespace ConsoleApplications
             //Console.WriteLine("The numeric representation of " + color + " is: " + index);
             //Console.ReadLine();
 
-            //=================================================
-            //Application Name: Collatz Conjecture
-            //Description: 
-            //=================================================
-            Console.WriteLine("Enter a number to generate the collatz sequence");
-            int number= Convert.ToInt32(Console.ReadLine());
-            while (number != 1)
-            {
-                if (number % 2 == 0)
-                {
-                    number = number / 2;
-                }
-                else if (number % 2 == 1)
-                {
-                    number = 3 * number + 1;
-                }
-                Console.WriteLine(number);
-            }
-                Console.ReadLine();
-
+            ////=================================================
+            ////Application Name: Collatz Conjecture
+            ////Description: The collatz conjecture will be printed for the user inputted number
+            ////=================================================
+            //Console.WriteLine("Enter a number to generate the collatz sequence");
+            //int number= Convert.ToInt32(Console.ReadLine());
+            //while (number != 1)
+            //{
+            //    if (number % 2 == 0) //If Even
+            //    {
+            //        number = number / 2;
+            //    }
+            //    else if (number % 2 == 1) //If Odd
+            //    {
+            //        number = 3 * number + 1;
+            //    }
+            //    Console.WriteLine(number);
+            //}
+            //    Console.ReadLine();
         }
     }
 }
